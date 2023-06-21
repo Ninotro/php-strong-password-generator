@@ -28,7 +28,7 @@
             
             
             if ($number > 0) {
-                echo "<br><br> <h3>la tua password è:</h3> <br>" .  random_strings($number);
+                echo "<br><br> <h3 class='password-text'>la tua password è:</h3> <br>" . "<div class ='password-type'>" .  random_strings($number) . " </div>" ;
             }
             
 

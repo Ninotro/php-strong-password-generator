@@ -1,4 +1,5 @@
  <?php
+ 
       function random_strings($length_of_string)
             {
             $str_result = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
