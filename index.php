@@ -14,7 +14,7 @@
         <section id="container-psw">
             <form id="form-psw">
                 <label for="number">numero caratteri</label>
-                <input type="number" name="number" id="number">
+                <input type="number" name="number" id="number" value="<?php echo $_GET['number']; ?>">
                 <input type="submit" value="Conferma">
             </form>
 
